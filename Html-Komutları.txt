@@ -1,0 +1,139 @@
+sayfa duzenleme alt - shift - f
+
+  HTML TAG'LARI
+
+1-<title>
+Head tagı içinde bulunur ve tarayıcının başlık çubuğunda görüntülenecek metni belirler.
+
+2-<p> (paragraph)
+Yazıları paragraf haline getirir.
+
+3-<br> (break) bitişi yok
+Metin içinde satır başı yapmak için kullanılır
+
+4-<hx>(heading)
+Yazıları başlık haline getirir. Standart 6 tane başlık tagı bulunmaktadır.
+<h1>Başlık 1</h1>
+<h2>Başlık 2</h2>
+ Sayfadaki en önemli bilgi h1 içine yazılmalıdır.
+ Bir sayfada 1 tane H1 olmalıdır.
+ Bu bilgi aynı zamanda insanların bu sayfayı nasıl bulacağı ile
+alakalı olmalıdır.
+ Sonrasında gelecek h tagları hiyerarşik şekilde olmalıdır
+
+  BİÇİMLENDİRME TAG'LARI
+
+5-<hr> (horizontal row) bitişi yok
+Yatay çizgi oluşturmak için kullanılır
+
+6-<!-- --> (comment) alt + shift + A
+Tasarımcı html kodlarının içine kullanıcı tarafından görülemeyecek
+açıklama satırları koymak istediğinde kullanır.
+
+7-<strong> || <b>(bold)
+Metinleri kalınlaştırmak için kullanılırlar.
+Strong tagının b ye göre semantic değeri daha fazladır.
+
+8-<em> (emphasis) || <i> (italic)
+Yazıyı eğik (italik) yazdırmak için kullanılırlar. em tagının,i tagına göre
+semantic değeri daha fazladır
+
+9-<u> (underline)
+Yazının altını çizmek için kullanılır
+
+NOTE: İç içe tag kullanıldığında dikkat edilmesi gereken kural: Önce açılan tag en son kapatılır.
+
+10-<del> (delete)
+Yazının üstünü çizmek için kullanılır. Özellikle alışveriş sitelerindeki indirimsiz fiyatı gösterirken kullanılır.
+
+11-<code>
+Web sayfasında bilgisayar kodları gösterilmek istediğinde kullanılır. Yazının fontu monospace olarak gösterilerek diğer yazılardan belirgin bir şekilde ayrılır
+
+12-<mark>
+Yazıları vurgulamak için kullanılır. Highlight özelliği kazandırır
+
+13-<sub> (subscript)
+Alt simge olarak göstermek için kullanılır
+
+14-<sup> (superscript)
+Üst simge olarak göstermek için kullanılır
+
+
+    LİSTELEME TAG'LARI
+
+15-<ol> (order list)
+Numaralı liste oluşturmak için kullanılır
+
+16-<li> (list item)
+Listeye eleman eklemek için kullanılır
+
+17-<ul> (unordered list)
+Madde işaretli liste oluşturmak için kullanılır
+
+18->dl> (defination list)
+Tanımlama listesi oluşturmak için kullanılır
+
+19-<dt> (defination term)
+Listeye tanımlama terimi eklemek için kullanılır
+
+20-<dd> (def. description)
+Terimin açıklamasını eklemek için kullanılır
+
+
+   BAĞLANTI TAG'I
+
+21-<a> (anchor)
+ Bir sayfadan başka bir sayfaya,
+ Aynı sayfanın farklı bölümlerine,
+ Başka bir sayfanın farklı bir bölümüne
+ Farkı bir siteye
+ Eposta adresine
+ Telefon numarasına
+ Whatsapp uygulamasına 
+
+NOTE: 
+** target="_blank" --> yönlendirme yapılan web sitesinin başka sekmede açılmasını sağlar
+
+
+  FOTOĞRAF EKLEME
+
+22-<img> (image) bitişi yok 
+Fotoğraf ekleme işlemleri img tagı ile yapılır. Jpg, png ve svg tercih edilir.
+
+NOTE:
+**src="" -->eklenecek fotoğrafın yolunu belirtiyoruz
+**alt="" --> fotoğraf yüklenmezse onun yerine gelecek metni yazıyoruz
+**width_""--> fotoğrafın genişlik değerini ayarlamak için
+
+**a>img --> küçük fotoğrafa tıkladığımızda fotoğrafın büyük halini açmak için
+
+
+
+  TABLO EKLEME
+
+<table> etiketleri arasında oluşturulur.
+
+23-<tr> (table row)
+Satır oluşturmak için kullanılır.
+
+24-<td> (table data)
+Veri hücresi oluşturmak için kullanılır.
+
+25-<th> (table head)
+Başlık hücresi oluşturmak için kullanılır.
+
+
+colspan > Yatayda hücre birleştirmek
+rowspan > dikeyde ücre birleştirmek
+
+
+
+
+
+
+
+
+
+
+
+
